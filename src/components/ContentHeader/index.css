@@ -1,0 +1,18 @@
+.content_header_icon_container {
+  width: 36px;
+  height: 36px;
+  background: #172b4d;
+  box-shadow: rgb(209, 206, 206) 5px 1px 8px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content_header_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 2%;
+  color: rgb(23, 43, 77);
+}

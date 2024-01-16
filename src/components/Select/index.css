@@ -1,0 +1,83 @@
+.panel-option-select-container {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5px 0px;
+}
+.panel-option-select-name-block {
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.panel-option-select {
+  width: 100% !important;
+  outline: none !important;
+}
+.css-qc6sy-singleValue {
+  font-size: 12px !important;
+}
+.tss-1vsygk-MUIDataTableFilterList-root {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: left !important;
+  -ms-flex-pack: left !important;
+  -webkit-justify-content: left !important;
+  justify-content: left !important;
+  -webkit-box-flex-wrap: wrap !important;
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  margin: 0px 16px 20px 0px !important;
+  column-gap: 10px !important;
+}
+.important-field {
+  color: red;
+  font-weight: 600;
+}
+
+.select_option_outter_container {
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.select_option_container_component {
+  width: 100%;
+  height: 40px;
+  border: none;
+  line-height: 50px;
+  -webkit-appearance: menulist-button;
+  -moz-appearance: none;
+  /* position: relative;
+    display: inline-block;
+    font-size: 14px;
+    color: #888;
+    margin-top: 25px; */
+}
+.select_option_item_select {
+  border: 1px solid #d2d2d2 !important;
+}
+.component_react_select__menu {
+  z-index: 3 !important;
+}
+
+.panel-option-select-toast-con {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  font-size: 10px;
+  padding: 0px 10px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Monstserrat-SemiBold;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 5px;
+  color: red;
+}
