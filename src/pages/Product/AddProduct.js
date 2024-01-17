@@ -176,7 +176,7 @@ const AddProduct = (props) => {
       //Create API Promise
       try {
 
-        let response = await CREATEPRODUCT(body);
+        let response = await CREATEPRODUCT({ ...body, url: state['url'] });
 
         if (response) {
           Toast({ position: 'TOP_RIGHT', message: String(response.message).toLowerCase().replace('product', 'Product'), type: 'success', theme: 'colored' });
@@ -201,7 +201,7 @@ const AddProduct = (props) => {
 
     let body = {}, schema = fileds;
 
-    let requiredData = ['name', 'price', 'category', 'description','url'];
+    let requiredData = ['name', 'price', 'category', 'description', 'url'];
 
     requiredData.map(x => state[x] !== updateState[x] ? body[x] = state[x] : false);
 
